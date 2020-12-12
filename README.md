@@ -1,6 +1,8 @@
-**Test Dumbways Batch 20 Kloter 3**
+#Test Dumbways Batch 20 Kloter 3**
 
-**Soal nomer 1**
+
+
+#Soal nomer 1**
 
 - Menggunakan bahasa pemrograman Javascript yang dibungkus dengan HTML.
 
@@ -12,7 +14,9 @@ Cara menggunakannya :
 
 - lalu enter dan lihat hasilnya.
 
-**Soal nomer 3**
+
+
+#Soal nomer 3
 
 - Menggunakan bahasa pemrograman Javascript yang dibungkus dengan HTML.
 
@@ -34,7 +38,9 @@ Cara menggunakannya :
 
 - save dan jalankan kembali
 
-**Soal nomer 4**
+
+
+#Soal nomer 4
 
 - Menggunakan pemrograman PHP, Database SQL, Server XAMPP, dan Style Bootstrap online.
 
