@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+iqbaldeffa
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOAL NO 3</title>
+  </head>
+
+  <body>
+    <h2>SOAL NO 3</h2>
+    <h4>TEST DUMBWAYS BATCH 20 KLOTER 3</h4>
+
+    <script>
+      let input = 10;
+
+      if (input == 10) {
+        function pola10(x) {
+          for (let i = 1; i <= x + 1; i++) {
+            for (let j = i; j <= x; j++) {
+              document.write("&nbsp&nbsp");
+            }
+            for (let k = 1; k <= i; k++) {
+              if (i == 1 || i % 2 == 0) {
+                document.write("*");
+              }
+            }
+            if (i == x + 1) {
+              document.write("DUMBWAYSID");
+            }
+
+            document.write("<br>");
+          }
+
+          for (let i = 1; i <= x; i++) {
+            for (let j = 1; j <= i; j++) {
+              document.write("&nbsp&nbsp");
+            }
+            for (let k = i; k <= x; k++) {
+              if (i == x || i % 2 === 1) document.write("*");
+            }
+            document.write("<br>");
+          }
+        }
+        pola10(10);
+      } else {
+        function pola(x) {
+          for (let i = 1; i <= x + 1; i++) {
+            for (let j = i; j <= x; j++) {
+              document.write("&nbsp&nbsp");
+            }
+            for (let k = 1; k <= i; k++) {
+              if (i == 1 || i % 2 == 0) {
+                document.write("*");
+              }
+            }
+
+            document.write("<br>");
+          }
+
+          for (let i = 1; i <= x; i++) {
+            for (let j = 1; j <= i; j++) {
+              document.write("&nbsp&nbsp");
+            }
+            for (let k = i; k <= x; k++) {
+              if (i == x || i % 2 === 1) document.write("*");
+            }
+            document.write("<br>");
+          }
+        }
+        pola(input);
+      }
+    </script>
+  </body>
+</html>

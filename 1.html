@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+iqbaldeffa
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOAL NO 1</title>
+  </head>
+
+  <body>
+    <h2>SOAL NO 1</h2>
+    <h4>TEST DUMBWAYS BATCH 20 KLOTER 3</h4>
+
+    <script>
+      let x = prompt("Berapa lama meminjam buku / hari");
+
+      function hitungDenda(x) {
+        let batasWaktu = Math.ceil(x - 10);
+        let dendaBukuMataPelajaran = 1000;
+        let dendaNovel = 2000;
+        let dendaCerpen = 1500;
+        document.write("Meminjam selama : " + x + " hari" + "<br>");
+        document.write(
+          "Telat mengembalikan : " + batasWaktu + " hari" + "<br>"
+        );
+        document.write(
+          "Denda buku mata pelajaran : Rp. " +
+            dendaBukuMataPelajaran * batasWaktu +
+            "<br>"
+        );
+        document.write("Denda novel : Rp. " + dendaNovel * batasWaktu + "<br>");
+        document.write(
+          "Denda cerpen : Rp. " + dendaCerpen * batasWaktu + "<br>"
+        );
+        document.write(
+          "Total : Rp. " +
+            (dendaBukuMataPelajaran + dendaNovel + dendaCerpen) * batasWaktu
+        );
+      }
+      hitungDenda(x);
+    </script>
+  </body>
+</html>
