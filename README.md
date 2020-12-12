@@ -6,7 +6,7 @@
 
 - Menggunakan bahasa pemrograman Javascript yang dibungkus dengan HTML.
 
-Cara menggunakannya :
+**Cara menggunakannya :**
 
 - Drag file ke browser atau bisa melalui URL.
 
