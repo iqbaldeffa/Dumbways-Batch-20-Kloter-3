@@ -1,0 +1,10 @@
+.header {
+  text-align: center;
+  font-size: 50px;
+  border-bottom: 3px solid black;
+}
+
+.text {
+  text-align: center;
+  font-size: 100px;
+}
